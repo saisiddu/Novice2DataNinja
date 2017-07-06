@@ -1,0 +1,20 @@
+ The proposed dataset contains 1669 labeled audio files from the following Picidae species doing 3 types of birdsongs: call, drumming and song.  Audio data are organized in thirteen folders: twelve containing the labeled audios of each birdsong type from every Picidae specie listed in what follows and one folder containing the background sound samples. 
+
+1- DendrocoposLeucotos - call.
+2- DendrocoposLeucotos - drumming.
+3- DendrocoposMajor - call.
+4- DendrocoposMajor - drumming.
+5- DendrocoposMedius - call.
+6- DendrocoposMedius - song.
+7- DendrocoposMinor - call.
+8- DendrocoposMinor - drumming.
+9- DryocopusMartius - call.
+10- DryocopusMartius - drumming.
+11- JynxTorquilla - song.
+12- PicusViridis - song.
+13- Silence (or background noise).
+
+Every folder is named according to the following pattern: "Picidae specie name - the type of sound" (e.g., JynxTorquilla-song). Analogously, all the audio files inside every folder have been named using the same strategy. More concretely, the structure of the audio file name is: Number of register of the audio at the Xeno-Canto repository - Name of the Picidae specie - Name of the type of sound - Number of sub audio referenced to the original Xeno-Canto file (e.g., XC233286-JynxTorquilla-song-6.wav). For instance, if four sounds of interest were extracted from the original Xeno-Canto audio sample XCaaa, which was a recording from a bbb Picidae specie doing a ccc type of sound, the generated audios will be the following  XCaaa-bbb-ccc-1.wav,  XCaaa-bbb-ccc-2.wav,  XCaaa-bbb-ccc-3.wav, and XCaaa-bbb-ccc-4.wav. Please, note that all the audio files have been converted to .wav.
+
+Licence type: CC-BY-SA
+
